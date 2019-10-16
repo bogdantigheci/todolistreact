@@ -1,22 +1,34 @@
-.App {
+body {
+  background: #352f5b;
+}
+.todo {
+  background: #423a6f;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.todo-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3em;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.unsub-btn {
+  background: #352f5b;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: whitesmoke;
+  margin: auto;
+  display: block;
+}
+.add-todo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: whitesmoke;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  margin: auto;
+  display: block;
 }
